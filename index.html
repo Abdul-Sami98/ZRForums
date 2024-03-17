@@ -925,9 +925,7 @@
             cache: false,
             processData: false,
             beforeSend: function () {
-                $('#home-form').append('<div class="overlay open">
-                    < img width = "370" height = "370" src = "img/services/1.webp" >
-                </div > ');
+                $('#home-form').append('<div class="overlay open">< img width = "370" height = "370" src = img/services/1.webp" ></div > ');
             },
             success: function (response) {
                 $("#home-form div[role='alert']").remove();
