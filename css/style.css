@@ -260,8 +260,8 @@ a {
     background-color: #000;
 }
 ::-webkit-scrollbar-thumb:vertical {
-    background: #d5a43d;
-    background: linear-gradient(156deg, #d5a43d 0%, #ffe37c 100%);
+    background: #1891c8;
+    background: linear-gradient(156deg, #1891c8 0%, #ffe37c 100%);
 }
 .container {
     margin-left: auto;
@@ -335,7 +335,7 @@ li {
 }
 .effect:before {
     transition: all 0.5s ease-out;
-    background: #ffe37c;
+    background: #1991c6;
 }
 .effect span {
     z-index: 1;
@@ -345,17 +345,17 @@ li {
     transition: all 0.3s ease-out;
 }
 .effect.bg {
-    background: linear-gradient(90deg, #d5a43d 0%, #d5a43d 100%);
-    border: solid 1px #d5a43d;
+    background: linear-gradient(90deg, #1891c8 0%, #1891c8 100%);
+    border: solid 1px #1891c8;
     color: white;
 }
 .effect.line {
     background-color: #fff;
-    border: solid 1px #d5a43d;
+    border: solid 1px #1891c8;
     color: #0E1C2A;
 }
 .effect.line:after {
-    background: linear-gradient(90deg, #d5a43d 0%, #d5a43d 100%);
+    background: linear-gradient(90deg, #1891c8 0%, #1891c8 100%);
 }
 .effect.bg:hover {
     color: #0E1C2A;
@@ -390,7 +390,7 @@ header {
     width: 0;
     z-index: 11;
     left: 0;
-    background-color: #d5a43d;
+    background-color: #1891c8;
     transition: all ease-in-out 0.1s;
 }
 header .left {
@@ -402,7 +402,7 @@ header.sticky {
     box-shadow: 0 0px 1px 0 #000;
 }
 header.sticky .menu-line {
-    background-color: #d5a43d;
+    background-color: #1891c8;
 }
 header.sticky .logo img {
     height: 74px;
@@ -494,7 +494,7 @@ body.menu-open .nav-box svg {
 }
 @keyframes fill {
 	100% {
-		box-shadow: inset 0px 0px 0px 30px #d5a43d;
+		box-shadow: inset 0px 0px 0px 30px #1891c8;
 	}
 }
 body.menu-open .nav-box svg circle {
@@ -575,6 +575,8 @@ body.menu-open .nav-box .col {
     top: 0;
     width: 100%;
     height: 100vh;
+    /* background: rgba(255, 199, 0, .6);
+    background: linear-gradient(0deg, rgba(255, 211, 52, 0.6) 0%, rgba(255, 187, 0, 0.6) 100%); */
     background: rgba(255, 199, 0, .6);
     background: linear-gradient(0deg, rgba(255, 211, 52, 0.6) 0%, rgba(255, 187, 0, 0.6) 100%);
     border-bottom-left-radius: 200%;
@@ -630,7 +632,7 @@ body.menu-open .nav-box ul {
     text-transform: uppercase;
 }
 .nav-box li a:hover {
-    color: #000;
+    color: #1690cd;
 }
 .nav-box .logo {
     opacity: 0;
@@ -680,7 +682,7 @@ section {
     margin-bottom: 20px
 }
 .header .title span {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .header p {
     font-size: 18px;
@@ -795,7 +797,7 @@ section {
 .aniline::before {
     content: '';
     width: 3px;
-    background: #d5a43d;
+    background: #1891c8;
     height: 100%;
     display: block;
     animation-name: up-line;
@@ -817,7 +819,7 @@ section {
 }
 .socials span {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 20px;
     line-height: 24px;
     transform: rotate(-90deg);
@@ -863,7 +865,7 @@ section {
 }
 .goals .title {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
@@ -906,7 +908,7 @@ section {
 .digital {
     padding: 120px 0;
     overflow: visible;
-    background: #d5a43d;
+    background: #1891c8;
 }
 .digital .container > div {
     flex: 50%;
@@ -962,7 +964,7 @@ section {
     padding-top: 20px;
 }
 .digital .btn.call.line {
-    color: #d5a43d;
+    color: #1891c8;
     background: #0E1C2A;
     border: 1px solid #0E1C2A;
 }
@@ -974,7 +976,7 @@ section {
     border: 1px solid #fff;
 }
 .digital .btn.chat.bg:hover {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .what {
     padding: 140px 0 120px;
@@ -985,7 +987,7 @@ section {
 }
 .what .title {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 48px;
     line-height: 58px;
 }
@@ -1058,7 +1060,7 @@ section {
     align-items: center;
 }
 .what .swiper-pagination-bullet-active {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .what .swiper-pagination-bullet-active:after {
     content: '';
@@ -1108,7 +1110,7 @@ section {
 }
 .what .slide-cont span a {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 30px;
     font-weight: 500;
     line-height: 34px;
@@ -1119,11 +1121,11 @@ section {
     width: 100%;
 }
 .what .slide-cont span a:hover {
-    color: #d5a43d;
-    border-bottom: 2px solid #d5a43d;
+    color: #1891c8;
+    border-bottom: 2px solid #1891c8;
 }
 .what .swiper-slide-active .slide-title {
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 30px;
     line-height: 34px;
     background: transparent;
@@ -1185,7 +1187,7 @@ section {
     width: 80%;
     height: 4px;
     content: '';
-    background: #d5a43d;
+    background: #1891c8;
     position: absolute;
     left: 10%;
     right: 10%;
@@ -1199,7 +1201,7 @@ section {
     flex: 30%;
 }
 .counter .title span {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .counter .boxs {
     gap: 50px;
@@ -1225,7 +1227,7 @@ section {
     animation: lighting 1000ms alternate ease;
 }
 .counter .box:hover span {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .counter .box:nth-child(1)span {
     animation-delay: 150ms;
@@ -1251,7 +1253,7 @@ section {
         color: #ddd;
     }
     100%{
-        color:#d5a43d;
+        color:#1891c8;
     }
 }
 .about {
@@ -1274,7 +1276,7 @@ section {
 }
 .about .subtitle {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 48px;
     line-height: 58px;
     margin-bottom: 30px;
@@ -1305,14 +1307,14 @@ section.cta .title {
     line-height: 54px;
 }
 section.cta .title span {
-    color: #d5a43d;
+    color: #1891c8;
     display: block;
 }
 section.cta .btns {
     gap: 25px;
 }
 section.cta .btn.line {
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 18px;
     min-width: 175px;
     background: transparent;
@@ -1388,7 +1390,7 @@ section.cta .btn.bg:hover span::before {
     line-height: 34px;
 }
 .testimonials .occ {
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 16px;
     line-height: 34px;
     text-transform: uppercase;
@@ -1398,7 +1400,7 @@ section.cta .btn.bg:hover span::before {
     content: '';
     width: 40px;
     height: 2px;
-    background: #d5a43d;
+    background: #1891c8;
     display: block;
 }
 .testimonials .details {
@@ -1415,14 +1417,14 @@ section.cta .btn.bg:hover span::before {
     margin-top: 30px;
 }
 .testimonials .swiper-pagination-bullets span {
-    border: 1px solid #d5a43d;
+    border: 1px solid #1891c8;
     background: transparent;
     padding: 5px;
     opacity: 1;
     text-indent: -9999999px;
 }
 .testimonials .swiper-pagination-bullets .swiper-pagination-bullet-active, .testimonials .swiper-pagination-bullets span:hover {
-    background: #d5a43d;
+    background: #1891c8;
 }
 .testimonials .circle-box {
     top: 22%;
@@ -1440,7 +1442,7 @@ section.cta .btn.bg:hover span::before {
 }
 .contacts .title {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 48px;
     line-height: 58px;
     margin-bottom: 10px;
@@ -1481,7 +1483,7 @@ html .contacts input, html .contacts textarea {
     opacity: 1;
 }
 .contacts input:focus, .contacts textarea:focus {
-    border-bottom: 1px solid #d5a43d;
+    border-bottom: 1px solid #1891c8;
 }
 .contacts .thumbup {
     margin-left: -15%;
@@ -1497,7 +1499,7 @@ html .contacts input, html .contacts textarea {
 }
 #point .kmacb-img-circle {
     animation: 1s ease-in-out 0s normal none infinite running kmacb-circle-img-anim;
-    background: #d5a43d;
+    background: #1891c8;
     border: 2px solid transparent;
     border-radius: 100%;
     width: 80px;
@@ -1513,7 +1515,7 @@ html .contacts input, html .contacts textarea {
 }
 #point .kmacb-circle-fill {
     animation: 2.3s ease-in-out 0s normal none infinite running kmacb-circle-fill-anim !important;
-    background: #d5a43d none repeat scroll 0 0;
+    background: #1891c8 none repeat scroll 0 0;
     border: 2px solid transparent;
     border-radius: 100%;
     width: 120px;
@@ -1526,7 +1528,7 @@ html .contacts input, html .contacts textarea {
 #point .kmacb-circle {
     animation: 2.2s ease-in-out 0s normal none infinite running kmacb-circle-anim !important;
     background-color: transparent;
-    border: 2px solid #d5a43d;
+    border: 2px solid #1891c8;
     border-radius: 100%;
     height: 100%;
     opacity: 0.35;
@@ -1534,10 +1536,10 @@ html .contacts input, html .contacts textarea {
     width: 100%;
 }
 #point .kmacb-img-circle, #point .kmacb-circle-fill {
-    background-color: #d5a43d;
+    background-color: #1891c8;
 }
 #point .kmacb-circle {
-    border-color: #d5a43d;
+    border-color: #1891c8;
 }
 @keyframes kmacb-circle-anim {
     0% {
@@ -1665,7 +1667,7 @@ footer .title::after {
     content: '';
     width: 100%;
     height: 2px;
-    background: rgb(255 199 0 / 50%);
+    background:rgb(27 144 194);
 }
 footer .title span {
     flex: none;
@@ -1680,7 +1682,7 @@ footer a {
     color: #91969B;
 }
 footer a:hover {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .flogo {
     display: inline-block;
@@ -1707,7 +1709,7 @@ footer .company {
     gap: 20px;
 }
 footer .company a, footer .contact a {
-    color: #d5a43d;
+    color: #1891c8;
 }
 footer .contact img {
     margin-bottom: 15px;
@@ -1721,7 +1723,7 @@ footer .contact img {
     background: #0F1923;
 }
 .cr span {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .cr a {
     color: #91969B;
@@ -1729,7 +1731,7 @@ footer .contact img {
     font-weight: 400;
 }
 .cr a:hover {
-    color: #d5a43d;
+    color: #1891c8;
 }
 .say-hello {
     position: fixed;
@@ -1766,7 +1768,7 @@ footer .contact img {
     content: '';
     width: 100%;
     height: 57px;
-    background: #d5a43d;
+    background: #1891c8;
     display: block;
     position: absolute;
     right: -20%;
@@ -1783,12 +1785,12 @@ footer .contact img {
     content: '';
     width: 26px;
     height: 26px;
-    background: #d5a43d;
+    background: #1891c8;
     display: block;
     border-radius: 100%;
 }
 .about-us {
-    background: #d5a43d;
+    background: #1891c8;
     margin-top: 5%;
     overflow: visible;
     z-index: 1;
@@ -1840,7 +1842,7 @@ footer .contact img {
     width: 25%;
     height: 10px;
     display: block;
-    background: #d5a43d;
+    background: #1891c8;
 }
 .inner-goals .boxs {
     gap: 20px;
@@ -1864,7 +1866,7 @@ footer .contact img {
 .high {
     padding: 5% 0;
     text-align: center;
-    background: #d5a43d;
+    background: #1891c8;
 }
 .high .title {
     font-family: 'Luckiest Guy', cursive;
@@ -1927,7 +1929,7 @@ footer .contact img {
     top: 0%;
     left: -7%;
     border-radius: 15px;
-    background: #d5a43d;
+    background: #1891c8;
     z-index: -2;
 }
 /* .services .service.mt {
@@ -1956,7 +1958,7 @@ footer .contact img {
     left: 0;
     border-radius: 25px;
     z-index: -1;
-    background-color: #d5a43d;
+    background-color: #1891c8;
 }
 .services .service .thumb img {
     width: 100%;
@@ -2125,7 +2127,7 @@ html .contact-us input, html .contact-us textarea {
     width: 38px;
     height: 38px;
     margin: 0 auto;
-    border: 1px solid #d5a43d;
+    border: 1px solid #1891c8;
     border-radius: 100%;
 }
 .packages  .tabset > label::after {
@@ -2136,13 +2138,13 @@ html .contact-us input, html .contact-us textarea {
     bottom: -11px;
 }
 .packages .tabset > label:hover::after, .packages .tabset > input:focus + label::after, .packages .tabset > input:checked + label::after {
-    background: #d5a43d;
+    background: #1891c8;
     border-radius: 100%;
     height: 19px;
     width: 19px
 }
 .packages .tabset > label:hover, .packages .tabset > input:focus + label, .packages .tabset > input:checked + label {
-    color: #d5a43d;
+    color: #1891c8;
     border-bottom: 3px solid #fff;
 }
 .packages .tab-panels {
@@ -2200,7 +2202,7 @@ html .contact-us input, html .contact-us textarea {
     padding-bottom: 5px;
 }
 .packages li span {
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 3px;
@@ -2261,7 +2263,7 @@ html .contact-us input, html .contact-us textarea {
 }
 .packages .box .head {
     color: #fff;
-    background: #d5a43d;
+    background: #1891c8;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 5px 15px 0px #ccc;
@@ -2406,7 +2408,7 @@ html .contact-us input, html .contact-us textarea {
     z-index:9;
 }
 .scroll-top:hover {
-    background:url(../img/arrow-circle-white.svg) no-repeat center, linear-gradient(180deg, rgba(255,199,0,1) 0%, rgb(190, 151, 9) 100%);
+    background:url(../img/arrow-circle-white.svg) no-repeat center, linear-gradient(180deg, #000 0%, rgb(25 144 199) 100%);
     background-size: 49px;
     transform: rotate(-90deg);
 }
@@ -2605,7 +2607,7 @@ body .widget-visible {
     margin-bottom: 40px;
 }
 .icon-list .icon {
-    background: #d5a43d;
+    background: #1891c8;
     border-radius: 100%;
     width: 94px;
     height: 94px;
@@ -2630,7 +2632,7 @@ body .widget-visible {
     border: 1px solid #eee;
 }
 .counters span {
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 44px;
     line-height: 48px;
     font-weight: 700;
@@ -2731,7 +2733,7 @@ body .widget-visible {
 }
 .blue-box .title {
     font-family: 'Luckiest Guy', cursive;
-    color: #d5a43d;
+    color: #1891c8;
     font-size: 48px;
     line-height: 58px;
     margin-bottom: 30px;
@@ -2956,7 +2958,7 @@ section.order-form .box.pack {
 }
 section.order-form .box.pack .head {
     color: #fff;
-    background: #d5a43d;
+    background: #1891c8;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -4350,7 +4352,7 @@ section.cart .btn {
         left: 55%;
     }
     .menu-line {
-        background-color: #d5a43d !important;
+        background-color: #1891c8 !important;
     }
     .goals {
         padding: 30px 0;
@@ -4781,11 +4783,11 @@ ul.dropdown_ a {
 }
 ul.dropdown_ a:hover
 {
-    color:#d7a611
+    color:#1891c8
 }
 li li:hover .dropdown_inner {
     display: block !important;
-    background:#d7a611;
+    background:#1891c8;
     transition:unset;
     border-radius:15px;
     height: auto;
@@ -4809,4 +4811,35 @@ header.sticky .logo img {
     min-height: 370px;
     width: 370px;
     object-fit: cover;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.icon-box .box {flex: 1;}
+
+.newstle{
+    
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+
+}
+
+.nav-box:before, .nav-box:after {
+    background: rgb(24 145 200);
+    background: linear-gradient(0deg, rgb(22 145 199) 0%, rgb(0 0 0) 25%);
+}
+
+.company.df.jcc.aic .flogo {
+    background: #fff;
+}
+.col.df.aic.jcc.fww.fdc .logo {
+    background: #fff;
 }

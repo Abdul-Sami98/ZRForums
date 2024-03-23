@@ -33,7 +33,7 @@
 
     <header id="header" class="df aic jcsb">
         <div class="df aic w-100 justify-content-between">
-            <a class="logo animation1 slide-left" href="index.html"><img src="img/logo.jpg" width="125" height="151"
+            <a class="logo animation1 slide-left" href="index.html"><img src="img/logo.png" width="125" height="151"
                     alt="ZR Forums"></a>
             <div class="menu-icon">
                 <div class="menu-line menu-line-left"></div>
@@ -52,8 +52,8 @@
         </svg>
         <div class="col df aic jcc fww fdc">
             <img class="logo"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                data-src="img/logo.jpg" width="150" height="150" alt="ZR Forums">
+                src="img/logo-white.png"
+                data-src="img/logo-white.png" width="150" height="150" alt="ZR Forums">
             <div class="address">
                 <a class="df aic" href="mailto:info@zrforums.com"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
@@ -216,8 +216,8 @@
                 </svg>
             </div>
         </div>
-        <div class="animation1 line-text-box">
-            <svg class="line-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 50">
+        <div class="animation line-text-box in-view">
+            <svg class="line-text start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 50">
                 <text x="0" y="50">ZR Forums</text>
             </svg>
         </div>
@@ -587,7 +587,7 @@
                 <div class="company df jcc aic">
                     <img class="flogo"
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                        data-src="img/logo.jpg" width="88" height="106" alt="ZR Forums">
+                        data-src="img/logo.png" width="88" height="106" alt="ZR Forums">
                     <p>ZR Forums is a full-service customer-focused digital marketing agency with years of proven
                         success to build and implement successful marketing strategies for your business. <a
                             href="about.html">Read More</a></p>
@@ -925,7 +925,9 @@
             cache: false,
             processData: false,
             beforeSend: function () {
-                $('#home-form').append('<div class="overlay open">< img width = "370" height = "370" src = img/services/1.webp" ></div > ');
+                $('#home-form').append('<div class="overlay open">
+                    < img width = "370" height = "370" src = "img/services/1.webp" >
+                </div > ');
             },
             success: function (response) {
                 $("#home-form div[role='alert']").remove();
