@@ -917,7 +917,7 @@
         form_data.append('subject', 'New email from The Deck Designers (From call back form)');
         form_data.append('contact-forms', 'form name or id');
         form_data.append('success-message', 'We have received your query and stored your information. We will contact you shortly.');
-        $.ajax({
+        $.ajax({ 
             type: "POST",
             url: "admin/class/ajax.php",
             data: form_data,
@@ -925,9 +925,9 @@
             cache: false,
             processData: false,
             beforeSend: function () {
-                $('#home-form').append('<div class="overlay open">
-                    < img width = "370" height = "370" src = "img/services/1.webp" >
-                </div > ');
+                $('#home-form').append(`<div class="overlay open">
+                    <img width = "370" height = "370" src = "img/services/1.webp">
+                </div> `);
             },
             success: function (response) {
                 $("#home-form div[role='alert']").remove();
